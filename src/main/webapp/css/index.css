@@ -1,0 +1,205 @@
+@charset "ISO-8859-1";
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+  
+.bg{
+    /* The image used */
+    background-image: url("../images/feedback_cover2.jpg");
+  
+    /* Full height */
+    height: 50%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search{
+    width: 750px;
+    border-radius: 5px;
+    height: 35px;
+    border-color: #131921;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.topic-01{
+    text-align: center;
+    margin: 10px 0 25px 0;
+}
+
+.local{
+    margin-left: 140px;
+}
+
+.local img{
+	text-align: center;
+}
+
+.local img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.blog-section{
+    margin-top: 40px;
+}
+
+.blog-section-header{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.blog-section .row{
+	margin-left: 100px;
+}
+
+.blog-section-header-01{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.blog-section img{
+    height: 300px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.interest{
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.bottom-center{
+  position: absolute;
+  top: 90%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+/* Starting inspiration section */
+.inspiration{
+    background-color: #F2B203;
+    margin-top: 40px;
+    padding: 40px 50px 15px 50px;
+}
+
+.inspiration .row,span{
+	margin-left: 45px;
+}
+
+.inspiration span{
+    font-size: 25px;
+}
+
+.inspiration span a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.inspiration img{
+    border-radius: 10px;
+}
+
+.inspiration p{
+    font-size: 17px;
+}
+
+.inspiration .column {
+    float: left;
+    width: 24.35%;
+    padding-right: 10.5px;
+}
+
+.inspiration .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Starting global section */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column{
+    float: left;
+    width: 23.5%;
+    padding: 5px;
+}
+  
+  /* Clear floats after image containers */
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.global-section{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.global-section h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.global-section-row{
+	margin-left: 50px;
+}
+
+.global-section-column{
+    float: left;
+    width: 18.6%;
+    padding: 5px;
+}
+  
+/* Clearfix (clear floats) */
+.global-section-row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.global-section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.global-image-centered{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.global-container-section{
+    position: relative;
+    text-align: center;
+    color: white;
+}

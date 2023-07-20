@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.blog-image{
+    /* The image used */
+    /*background-image: url("../images/feedback_cover.jpg");*/
+  
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: 30px 50px 50px 50px;
+}
+
+.article{
+    text-align: justify;
+}
+
+.line{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 40px;
+}
